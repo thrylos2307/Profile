@@ -802,8 +802,8 @@ td .fas{
 }
 
 .title_section:hover{
-  text-decoration: underline;
-  color: var(--first-color);
+  text-decoration: underline !important;
+  color: var(--first-color) !important;
 }
 /* .qualification__subtitle:hover{
   text-decoration: underline
@@ -2319,6 +2319,14 @@ body::-webkit-scrollbar-thumb:active{
   font-size: 1.5em;
   margin: 10px 0 30px;
   color: var(--second-color);
+}
+.project-title:hover{
+  text-decoration: underline;
+  color: var(--cursor-color);
+}
+.project-title-2:hover{
+  text-decoration: underline;
+  color: var(--cursor-color);
 }
 .project-content-2 .project-details-2 {
   font-size: 15px;
