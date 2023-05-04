@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ===== TITTLE ===== -->
+    <title>Tushar Bharti</title>
+
+    <!-- ===== META ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta name="description" content="Portfolio of Tushar Bharti the Software Developer." />
+
+    <!-- ===== OG ===== -->
+    <meta property="og:title" content="Portfolio of Tushar Bharti" />
+
+    <meta property="og:description" content="Portfolio of Tushar Bharti the Software Developer." />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="..//css/styles.css">
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon" href="..//img/favicon.png" type="image/png" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== FONT AWESOME ===== -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <div class="custom-cursor" id="js-cursor">
+        <div class="cursor__small abs-center" id="js-cursor__small"></div>
+        <div class="cursor__big abs-center" id="js-cursor__big"></div>
+        <div class="cursor__big2 abs-center" id="js-cursor__big2"></div>
+    </div>
+
+
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+
+        <!-- ===== NAV BAR ===== -->
+        <nav class="nav bd-grid">
+
+            <div>
+                <a onclick="redirectback('index','')" data-id="page" class="nav__logo curserhover"><img class="nav__img"
+                        id="navlogo" src="..//img/logo-nav.png" alt="Logo Tushar Bharti">
+                    <p>Tushar Bharti</p>
+                </a>
+            </div>
+
+            <!-- ===== NAV MENU ===== -->
+            <div class="nav__menu" id="nav-menu">
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a onclick="redirectback('index','')" data-id="page"
+                            class="nav__link active curserhover"></a></li>
+                    <li class="nav__item"><a onclick="redirectback('index','#about')" data-id="page"
+                            class="nav__link curserhover">About Me</a></li>
+                    <li class="nav__item"><a onclick="redirectback('index','#experiencia')" data-id="page"
+                            class="nav__link curserhover">Experience</a></li>
+                    <li class="nav__item"><a onclick="redirectback('index','#work')" data-id="page"
+                            class="nav__link curserhover">Projects</a></li>
+                    <li class="nav__item"><a onclick="redirectback('index','#skills')" data-id="page"
+                            class="nav__link curserhover">Skills</a></li>
+                    <li class="nav__item"><a onclick="redirectback('index','#contacto')" data-id="page"
+                            class="nav__link curserhover">Contact</a></li>
+
+                    <li class="nav__item"><i class='bx bxs-moon change-theme curserhover' id="theme-button"></i></li>
+                </ul>
+
+            </div>
+
+            <!-- ===== NAV MENU MOBILE ICON ===== -->
+            <div class="nav__toggle curserhover" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="l-main">
+
+
+
+        <!-- ===== BACK TO TOP BUTTON ===== -->
+        <button id="back-to-top-btn" class="curserhover"><i class="fas fa-angle-double-up"></i></button>
+
+        <!-- ===== HOME ===== -->
+        <section class="home bd-grid" id="home" style="display: none;">
+            <div class="home__img" id="logo">
+                <img src="../../assets/img/logo.png" alt="Logo Tushar Bharti">
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- ===== WORK ===== -->
+        <section class="work section1 send2" id="titulo">
+            <div class="container1">
+                <img src="" alt="">
+            </div>
+            <div style="height: 100px; overflow: hidden;" class="svgwave"><svg viewBox="0 0 500 150"
+                    preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: var(--nav-color);"></path>
+                </svg></div>
+            <div class="wave send__container2 addpadding">
+                <div class="title_section">
+                    <a href="https://www.pointo.in/">
+                        <h1 class="section-title2 section-title-center send__title1 titulomarg">Pointo</h1>
+                    </a>
+                    <p class="section__subtitle span2 exp subtitulo">Backend Developer Intern</p>
+                </div>
+
+                <div class="work__container send__container">
+
+                </div>
+
+
+            </div>
+
+        </section>
+        <section class="work section1" id="video">
+            <div class="work__container send__container">
+                <div class="wave send__container2 nopadding">
+                    <div class="send__content addpadding send3">
+                        <h1 class="section-title-center home__title-color">Experience & Learnings</h1>
+                        <p class="send__description lessfont">
+                        <h4 class="section-title-center send__title"> &#9655;&nbsp; Build Api:</h4>
+                        <ul style="margin-left:20px">
+                            <li>&#9688; To validate paytm transaction made by customer after ending ride</li>
+                            <li>&#9688; To validate user location to check whether service is available or not. </li>
+                            <li>&#9688; To Implement SOS feature.</li>
+                            <li>&#9688; To verify new drivers. </li>
+                        </ul>
+                        <h4 class="section-title-center send__title"> &#9655;&nbsp; Create socket event to search nearby
+                            drivers,endrides,driver reached for pickup etc.</h4>
+                        <h4 class="section-title-center send__title"> &#9655;&nbsp; Build functions to use firebase FCM
+                            token to notify users regarding driver reached,ride started , reached destination and
+                            payment successfull.</h4>
+                        </p>
+                        <h3 class="section-title-center home__title-color">Got chance to work on frontend too:</h3>
+                        <h4 class="section-title-center send__title"> &#9655;
+                            &nbsp; Build admin dashboard from scratch using React.js:</h4>
+                        <ul style="margin-left:20px">
+                            <li>&#9688; Show all rides , users and all drivers with status online/offline or inactive
+                            </li>
+                            <li>&#9688; Show all drivers on map with their meta info.</li>
+                            <li>&#9688; Show live rides on map with SOS feature.</li>
+                            <li>&#9688; Show all income-sheet of individual drivers as well as of pointo. </li>
+                        </ul>
+                        <br>
+
+                        <h2 class="section-title-center send__title">TechStack</h2>
+
+                        <!-- ===== TECH SLIDER ===== -->
+                        <div class="sliderlogo2">
+                            <div class="customer-logos">
+                                <div class="slide"><img src="..//img/html.png" alt="HTML5">
+                                    <p>HTML5</p>
+                                </div>
+                                <div class="slide"><img src="..//img/css.png" alt="CSS3">
+                                    <p>CSS3</p>
+                                </div>
+                                <div class="slide"><img src="..//img/js.png" alt="JavaScript">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="slide"><img src="..//img/sql.png" alt="SQL">
+                                    <p>Seqeulize</p>
+                                </div>
+
+                                <div class="slide"><img src="..//img/react.png" alt="react">
+                                    <p>React</p>
+                                </div>
+                                <div class="slide"><img src="..//img/fr.png" alt="Firebase">
+                                    <p>Fireabase</p>
+                                </div>
+                                <div class="slide"><img src="..//img/ts.png" alt="Typescript">
+                                    <p>Typescript</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!--========== CONTACT==========-->
+        <section class="send1 section1 contact" id="cto">
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="var(--wave1-color)" opacity="0.5" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="var(--wave2-color)" opacity="0.6" />
+                        <use xlink:href="#gentle-wavre" x="48" y="5" fill="var(--wave3-color)" opacity="0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--wave4-color)" opacity="1" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="footer">
+
+            <!-- ===== FOOTER TITLE ===== -->
+            <div class="content flex">
+
+                <p class="footer__title">Tushar Bharti</p>
+
+                <!-- ===== FOOTER SOCIAL LINKS ===== -->
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/tushar-bharti-9b034a120/" target="_blank"
+                        class="footer__icon curserhover"><i class='fab fa-linkedin-in'></i></a>
+                    <a href="https://www.reddit.com/user/thrylose/" target="_blank" class="footer__icon curserhover"><i
+                            class='fab fa-reddit-alien' style="font-weight:600;"></i></a>
+                    <a href="https://github.com/thrylos2307" target="_blank" class="footer__icon curserhover"><i
+                            class='fab fa-github'></i></a>
+                    <a href="mailto:nishu123tushar@gmail.com" target="_blank" class="footer__icon curserhover"><i
+                            class='far fa-envelope'></i></a>
+                </div>
+
+                <!-- ===== FOOTER COPYRIGHT ===== -->
+                <!-- <p class="footer__copy" id="copy"></p> -->
+            </div>
+        </footer>
+
+        <!-- ===== INTRO ANIMATION ===== -->
+        <div class="intro">
+            <div class="intro-text">
+                <h1 class="hide">
+                    <span class="text"></span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text"><img src="/assets/img/tb.png" style="transform: scale(.5);"></span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text"></span>
+                </h1>
+            </div>
+        </div>
+        <div class="slider"></div>
+
+
+        <!-- ===== GSAP JS LIBRARY ===== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+            integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+            crossorigin="anonymous"></script>
+
+        <!-- ===== JQUERY LIBRARY ===== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="..//js/main.js"></script>
+        <!--===== SLICK JS =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+        </div>
+</body>
+
+</html>
