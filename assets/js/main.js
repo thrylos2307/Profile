@@ -559,13 +559,6 @@ if (dir === '/index.html' || dir === '/') {
 }
 
 
-/* ==================== DYNAMIC COPYRIGHT YEAR ==================== */
-function copyright() {
-  copyrightYear = new Date().getFullYear();
-  copyFinal = "© " + copyrightYear + " Made by Tushar Bharti";
-  document.getElementById("copy").innerText = copyFinal;
-};
-copyright();
 
 
 /* ==================== TIPYNG TITLE ANIMATION ==================== */
@@ -575,3 +568,12 @@ window.ityped.init(document.querySelector('.ityped'), {
   typeSpeed: 150,
   backDelay: 3000,
 })
+
+
+/* ==================== DYNAMIC COPYRIGHT YEAR ==================== */
+function copyright() {
+  copyrightYear = new Date().getFullYear();
+  copyFinal = "© " + copyrightYear + " Made by Tushar Bharti";
+  document.getElementById("copy").innerText = copyFinal;
+};
+copyright();

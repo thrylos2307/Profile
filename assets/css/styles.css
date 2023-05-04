@@ -801,10 +801,9 @@ td .fas{
   color: var(--first-color);
 }
 
-.send2 .send__container2 .title_section:hover{
-  color: var(--first-color);
+.title_section:hover{
   text-decoration: underline;
-  
+  color: var(--first-color);
 }
 /* .qualification__subtitle:hover{
   text-decoration: underline
