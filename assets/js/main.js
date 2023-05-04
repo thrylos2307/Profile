@@ -382,6 +382,7 @@ var nav = $(".l-header");
 $window.on("scroll", function () {
   var scrollTop = $window.scrollTop();
   nav.toggleClass("hidden", scrollTop > prev);
+  $(".nav__menu").removeClass("show");
   prev = scrollTop;
 });
 
