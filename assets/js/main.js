@@ -570,10 +570,3 @@ window.ityped.init(document.querySelector('.ityped'), {
 })
 
 
-/* ==================== DYNAMIC COPYRIGHT YEAR ==================== */
-function copyright() {
-  copyrightYear = new Date().getFullYear();
-  copyFinal = "© " + copyrightYear + " Made by Tushar Bharti";
-  document.getElementById("copy").innerText = copyFinal;
-};
-copyright();
