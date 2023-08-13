@@ -248,7 +248,7 @@ img{
 }
 .section-title2{
   position: relative;
-  color: var(--first-color);
+  color: var(--first-color) !important;
   text-align: center;
 }
 
@@ -723,7 +723,7 @@ img{
 }
 
 .send__title1{
-  color: var(--second-color);
+  color: var(--first-color);
   text-align: center;
 }
 
@@ -805,9 +805,10 @@ td .fas{
   text-decoration: underline !important;
   color: var(--first-color) !important;
 }
-/* .qualification__subtitle:hover{
-  text-decoration: underline
-} */
+ .qualification__title:hover{
+  text-decoration: underline;
+  color: var(--first-color)
+} 
 .qualification__icon{
   font-size: 1.2rem;
   margin-right: var(--mb-0-25);
@@ -824,11 +825,14 @@ td .fas{
   font-weight: var(--font-semi);
 }
 
+
 .qualification__subtitle{
   display: inline-block;
   font-size: var(--small-font-size);
   font-weight: bold;
+
   margin-bottom: var(--mb-1);
+  margin-top: var(--mt -1);
 }
 
 .qualification__calendar{
@@ -988,7 +992,7 @@ td .fas{
 
 
 /* ===== CONTACT ===== */
-#contacto{
+#Contact{
   margin-bottom: 1rem;
   padding-top: 1rem;
 }
