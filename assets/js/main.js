@@ -28,7 +28,8 @@ function redirect(project) {
 }
 
 function redirectback(path, anchor) {
-  console.log('redirect')
+  console.log('redirect');
+  console.log("location : ", window.location);
   const tl2 = new gsap.timeline({ defaults: { ease: Power1.easeInOut } });
   tl2.set(".custom-cursor", { opacity: 0 });
   tl2.set("#back-to-top-btn", { display: "none" });
@@ -37,9 +38,10 @@ function redirectback(path, anchor) {
   tl2.set(".text", { opacity: 0 },);
   tl2.set(".intro", { y: "0%" },);
   tl2.to(".intro", { opacity: 1, duration: .5 },);
-  setTimeout(function () {
-    window.location.href = '/' + path + '.html' + anchor;
-  }, 1200);
+  // setTimeout(function () {
+   let root=window.location.host.includes('github')?"/Profile/":"/";
+    window.location.href = root + path + '.html' + anchor;
+  // }, 1200);
 }
 
 

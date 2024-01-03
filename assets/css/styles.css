@@ -2599,7 +2599,7 @@ padding: 5px 10px;
 
 .llenar {
   background: var(--nav-color);
-  background-image: url(../../assets/img/liquid.png);
+  /* background-image: url(../../assets/img/liquid.png); */
   background-repeat: repeat-x;
   background-position: 0 -110%;
   transition: .3s ease;
