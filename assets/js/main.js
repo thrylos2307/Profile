@@ -40,7 +40,7 @@ function redirectback(path, anchor) {
   tl2.to(".intro", { opacity: 1, duration: .5 },);
   // setTimeout(function () {
    let root=window.location.host.includes('github')?"/Profile/":"/";
-    window.location.href = root + path + '.html' + anchor;
+    window.location.href = "/Profile/" + path + '.html' + anchor;
   // }, 1200);
 }
 
